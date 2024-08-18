@@ -1,0 +1,7 @@
+Name: bur
+Account Number: 2
+Phone Number: 78
+Address: nsf
+Email: eeve@gmail.com
+Citizenship: IRE
+Balance: 184.000000

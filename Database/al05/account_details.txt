@@ -1,0 +1,7 @@
+Name: ali
+Account Number: 4
+Phone Number: 786
+Address: salute
+Email: al@gmail.com
+Citizenship: IND
+Balance: 550.000000

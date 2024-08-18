@@ -1,0 +1,7 @@
+Name: burhan
+Account Number: 1
+Phone Number: 782
+Address: southpark
+Email: rng@gmail.com
+Citizenship: Indian
+Balance: 733.800000

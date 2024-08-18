@@ -1,0 +1,7 @@
+Name: hgj
+Account Number: 3
+Phone Number: 75
+Address: parkst
+Email: rhg@gmail.com
+Citizenship: CAN
+Balance: 610.000000
