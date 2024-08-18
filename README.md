@@ -22,17 +22,7 @@ Spawn 2 terminals. In one of the terminal compile and run the server and in the 
 Server file
 #### Compile and Run
 <div style="position: relative; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-<script>
-function copyToClipboard() {
-    var code = document.getElementById("codeBlock").innerText;
-    navigator.clipboard.writeText(code).then(function() {
-        alert('Command copied to clipboard!');
-    }, function(err) {
-        alert('Error in copying text: ', err);
-    });
-}
-</script>
-    <button onclick="copyToClipboard()" style="
+    <!-- <button  style="
         position: absolute; 
         top: 5px; 
         right: 5px; 
@@ -44,7 +34,7 @@ function copyToClipboard() {
         cursor: pointer;
         font-size: 14px;">
         Copy
-    </button>
+    </button> -->
     <pre><code id="codeBlock">gcc Bank_Management_System_server.c -o ./executables/server
 cd executables
 ./server</code></pre>
@@ -56,17 +46,7 @@ cd executables
 Client file
 #### Compile and Run
 <div style="position: relative; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
-<script>
-function copyToClipboard() {
-    var code = document.getElementById("codeBlock").innerText;
-    navigator.clipboard.writeText(code).then(function() {
-        alert('Command copied to clipboard!');
-    }, function(err) {
-        alert('Error in copying text: ', err);
-    });
-}
-</script>
-    <button onclick="copyToClipboard()" style="
+    <!-- <button style="
         position: absolute; 
         top: 5px; 
         right: 5px; 
@@ -78,7 +58,7 @@ function copyToClipboard() {
         cursor: pointer;
         font-size: 14px;">
         Copy
-    </button>
+    </button> -->
     <pre><code id="codeBlock">gcc Bank_Management_System_client.c -o ./executables/server
 cd executables
 ./client</code></pre>
