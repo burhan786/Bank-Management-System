@@ -22,6 +22,16 @@ Spawn 2 terminals. In one of the terminal compile and run the server and in the 
 Server file
 #### Compile and Run
 <div style="position: relative; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
+<script>
+function copyToClipboard() {
+    var code = document.getElementById("codeBlock").innerText;
+    navigator.clipboard.writeText(code).then(function() {
+        alert('Command copied to clipboard!');
+    }, function(err) {
+        alert('Error in copying text: ', err);
+    });
+}
+</script>
     <button onclick="copyToClipboard()" style="
         position: absolute; 
         top: 5px; 
@@ -40,6 +50,12 @@ cd executables
 ./server</code></pre>
 </div>
 
+
+
+### Bank_Management_System_client.c
+Client file
+#### Compile and Run
+<div style="position: relative; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
 <script>
 function copyToClipboard() {
     var code = document.getElementById("codeBlock").innerText;
@@ -50,11 +66,6 @@ function copyToClipboard() {
     });
 }
 </script>
-
-### Bank_Management_System_client.c
-Client file
-#### Compile and Run
-<div style="position: relative; border: 1px solid #ccc; padding: 10px; border-radius: 5px;">
     <button onclick="copyToClipboard()" style="
         position: absolute; 
         top: 5px; 
@@ -73,13 +84,3 @@ cd executables
 ./client</code></pre>
 </div>
 
-<script>
-function copyToClipboard() {
-    var code = document.getElementById("codeBlock").innerText;
-    navigator.clipboard.writeText(code).then(function() {
-        alert('Command copied to clipboard!');
-    }, function(err) {
-        alert('Error in copying text: ', err);
-    });
-}
-</script>
